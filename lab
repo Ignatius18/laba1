@@ -11,6 +11,7 @@ int main() {
     x = max(x, (a + b) * c);
     x = max(x, a * (b + c));
     x = max(x, a * b * c);
+    cout <<"Решение: ";
     cout << "max-" << x;
     return 0;
 }
